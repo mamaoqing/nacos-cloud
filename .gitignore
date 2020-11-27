@@ -26,7 +26,6 @@ hs_err_pid*
 .idea/jarRepositories.xml
 .idea/libraries/
 nacos-commons/nacos-commons.iml
-nacos-commons/src/
 nacos-pay9002/nacos-pay9002.iml
 nacos-pay9002/src/test/
 nacos-pay9002/target
