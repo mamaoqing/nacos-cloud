@@ -1,5 +1,6 @@
 package com.mq.nacos.controller;
 
+import com.mq.cloud.PasswordEncryption;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -22,6 +23,9 @@ public class PayController {
 
     @GetMapping("{id}")
     public String pay(@PathVariable("id") String id){
-        return "访问端口号是<"+port+">的服务,获取到的id内容是："+ id;
+        String mmq = PasswordEncryption.encryption(id, "mmq");
+        System.out.println(mmq);
+
+        return "访问端口号是<"+port+">的服务,获取到的id内容是："+ mmq;
     }
 }
