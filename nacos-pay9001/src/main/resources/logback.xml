@@ -35,7 +35,7 @@
             <pattern>%d -->%p %c[%L] --> %msg%n</pattern>
         </encoder>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <FileNamePattern>logs/error-pay9001.%d.log</FileNamePattern>
+            <FileNamePattern>logs/error/error-pay9001.%d.log</FileNamePattern>
         </rollingPolicy>
     </appender>
     <!-- 全局日志级别 -->
