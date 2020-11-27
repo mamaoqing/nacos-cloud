@@ -10,8 +10,9 @@
     <modules>
         <module>nacos-pay9002</module>
         <module>nacos-web</module>
-        <module>nocos-pay9001</module>
+        <module>nacos-pay9001</module>
         <module>nacos-commons</module>
+        <module>nacos-pay9003</module>
     </modules>
     <packaging>pom</packaging>
 
