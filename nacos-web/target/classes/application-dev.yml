@@ -1,0 +1,14 @@
+server:
+  port: 81
+
+service-url:
+  nacos-pay-service: http://nacos-pay
+
+spring:
+  application:
+    name: nacos-web
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.116.125:1111
+#        server-addr: 127.0.0.1:8848
