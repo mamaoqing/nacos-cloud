@@ -39,4 +39,14 @@ nocos-pay9001/src/test/
 nocos-pay9001/target
 .idea/uiDesigner.xml
 nacos-pay9001/src/test/
-nacos-pay9003/src/test/
+nacos-pay9003/target/
+nacos-pay9002/target/
+nacos-web/target/
+.idea/.gitignore
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+nacos-cloud.iml
+nacos-pay9003/nacos-pay9003.iml
