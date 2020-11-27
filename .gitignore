@@ -42,6 +42,7 @@ nacos-pay9001/src/test/
 nacos-pay9003/target/
 nacos-pay9002/target/
 nacos-web/target/
+nacos-commons/target/
 .idea/.gitignore
 .idea/inspectionProfiles/
 .idea/misc.xml
