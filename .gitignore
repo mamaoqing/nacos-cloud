@@ -30,9 +30,13 @@ nacos-commons/src/
 nacos-pay9002/nacos-pay9002.iml
 nacos-pay9002/src/test/
 nacos-pay9002/target
+nacos-pay9003/target
 nacos-web/nacos-web.iml
 nacos-web/src/test/
 nacos-web/target
 nocos-pay9001/nocos-pay9001.iml
 nocos-pay9001/src/test/
 nocos-pay9001/target
+.idea/uiDesigner.xml
+nacos-pay9001/src/test/
+nacos-pay9003/src/test/
