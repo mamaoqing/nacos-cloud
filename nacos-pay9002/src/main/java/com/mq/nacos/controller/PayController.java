@@ -25,7 +25,8 @@ public class PayController {
     public String pay(@PathVariable("id") String id){
         String mmq = PasswordEncryption.encryption(id, "mmq");
         System.out.println(mmq);
-
+        boolean mmq1 = PasswordEncryption.decode(mmq, id, "mmq");
+        System.out.println(mmq1);
         return "访问端口号是<"+port+">的服务,获取到的id内容是："+ mmq;
     }
 }
