@@ -53,3 +53,5 @@ nacos-commons/target/
 .idea/workspace.xml
 nacos-cloud.iml
 nacos-pay9003/nacos-pay9003.iml
+nacos-upload/target
+nacos-upload/src/test/
