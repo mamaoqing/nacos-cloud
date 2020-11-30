@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @projectName nacos-cloud
  * @date 2020/11/2616:31
  */
-@SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
+@SpringBootApplication
 @EnableDiscoveryClient
 public class Pay9002 {
     public static void main(String[] args) {

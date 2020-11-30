@@ -1,4 +1,4 @@
-package com.mq.cloud;
+package com.mq.cloud.util;
 
 import org.apache.commons.lang.StringUtils;
 import org.springframework.util.DigestUtils;
@@ -108,6 +108,10 @@ public class PasswordEncryption {
         String pwd = new String(pd, StandardCharsets.UTF_8);
 
         return s.equals(pwd);
+    }
+
+    public static boolean decode(String passWord, String old) {
+        return  decode(passWord, old,"");
     }
 
     /**

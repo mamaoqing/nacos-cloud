@@ -1,6 +1,6 @@
 package com.mq.nacos.controller;
 
-import com.mq.cloud.PasswordEncryption;
+import com.mq.cloud.util.PasswordEncryption;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
