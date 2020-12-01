@@ -1,5 +1,6 @@
 package com.mq.nacos.controller;
 
+import com.mq.cloud.exception.MyException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -29,6 +30,10 @@ public class WebController {
     @GetMapping("{id}")
     public String index(@PathVariable("id") String id) {
         log.info("已经进入web系统，获取到的内容为:{}",id);
+        if(true) {
+            throw new MyException(5001,"没有为啥就是错了！");
+        }
+
         return restTemplate.getForObject(serverUrl+"/pay/"+id,String.class);
     }
 }
